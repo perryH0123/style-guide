@@ -50,10 +50,50 @@
     background-color: #be1e2d;
 }
 
+.red-ribbon {
+    background-color:#cf4d11;
+}
+
+.peppa {
+    background-color: #e981a0;
+}
+
 .robotics {
     background-color: #ffdd00;
 }
 
-.skyblue {
-    
+.shrek {
+    background-color: #9de46e;
+}
+
+.tangerine {
+    background-color: #ea6710;
+}
+
+.vector {
+    background-color: #ea9e10;
+}
+
+.mcnugget {
+    background-color: #edb312;
+}
+
+.ph {
+    background-color: #f2e864;
+}
+
+.chernobyl {
+    background-color: #47ff47;
+}
+
+.park-ranger {
+    background-color: #0b5114;
+}
+
+.bender {
+    background-color: rgb(163, 226, 255);
+}
+
+.ups-truck {
+    background-color: #644117;
 }

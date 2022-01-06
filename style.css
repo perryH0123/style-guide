@@ -148,6 +148,7 @@ a {
 a:after {
     content: " >";
     font-family: "Oswald";
+    text-decoration: none;
 }
 
 a:hover {
