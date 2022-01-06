@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Style Guide</title>
+        <link href="assets/logo.jpg", rel="icon">
+        
+        <link href="reset.css", rel="stylesheet">
+        <link href="style.css", rel="stylesheet">
+        <link href="colors.css" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@300&family=Merriweather:wght@300;400;700;900&family=Open+Sans:ital,wght@0,400;0,500;0,600;0,700;1,500&family=Oswald:wght@300;400;500;600;700&family=Oxygen:wght@300;400;700&family=Roboto:wght@400;500;700;900&family=Spline+Sans&family=Work+Sans:wght@400;500;800&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <header>
+            <div class="title"><h1>Perry's Epic Style Guide<hr class="separator"></h1></div>
+        </header>
+        <div id="navBar">
+            <nav>
+                <ul>
+                    <li><a href="#fontsL">Fonts</a></li>
+                    <li><a href="#colorsL">Colors</a></li>
+                    <li><a href="#text-stylesL">Text Styles</a></li>
+                    <li><a href="#elementsL">Elements</a></li>
+                    <li><a href="#alignmentL">Alignment</a></li>
+                </ul>
+            </nav>
+        </div>
+        <main>
+            <article id="welcome">
+                <h1>Hello! Welcome to my style guide!</h2>
+                <p>This document details the formatting that I use in all of my personal websites and projects.</p>
+            </article>
+            <hr>
+            <section id="fonts">
+                <h2 id="fontsL">Fonts</h2>
+                <p>I tend to use a lot of sans-serif fonts to achieve a clean, modern look on my websites. The following table below shows the typefaces I use and their purposes.</p>
+                <div class="spacing"></div>
+                <table id="font-table">
+                    <thead>
+                        <th>Font Face</th>
+                        <th>Purpose</th>
+                        <th>Source</th>
+                        <th>Notes</th>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td class="oxygen-font-display">Oxygen</td>
+                            <td>Headings, Navigation Bar</td>
+                            <td><a href="https://fonts.google.com/specimen/Oxygen?query=oxygen" target="_blank">Google Fonts</a></td>
+                            <td>Also acceptable as an alternate font for header title</td>
+                        </tr>
+                        <tr>
+                            <td class="work_sans-font-display">Work Sans</td>
+                            <td>Website Titles</td>
+                            <td><a href="https://fonts.google.com/specimen/Work+Sans?query=work+sans" target="_blank">Google Fonts</a></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td class="robot-font-display">Roboto</td>
+                            <td>Informationals, bulk data, tables</td>
+                            <td><a href="https://fonts.google.com/specimen/Roboto?query=robot" target="_blank">Google Fonts</a></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td class="open_sans-font-display">Open Sans</td>
+                            <td>Large amounts of text (p)</td>
+                            <td><a href="https://fonts.google.com/specimen/Open+Sans?query=open+sans" target="_blank">Google Fonts</a></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td class="oswald-font-display">Oswald</td>
+                            <td>Unspecified</td>
+                            <td><a href="https://fonts.google.com/specimen/Oswald" target="_blank">Google Fonts</a></td>
+                            <td>Also used for appending	<span class="oswald-font-display">&gt;</span> to links</td>
+                        </tr>
+                        <tr>
+                            <td class="spline_sans-font-display">Spline Sans</td>
+                            <td>Unspecified</td>
+                            <td><a href="https://fonts.google.com/specimen/Spline+Sans?query=spline+sans" target="_blank">Google Fonts</a></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td class="jetbrains_mono-font-display">JetBrains Mono</td>
+                            <td>Code</td>
+                            <td><a href="https://fonts.google.com/specimen/JetBrains+Mono?query=mono" target="_blank">Google Fonts</a></td>
+                            <td>Weight 300</td>
+                        </tr>
+                        <tr>
+                            <td class="merriweather-font-display">Merriweather</td>
+                            <td>Default Serif font</td>
+                            <td><a href="https://fonts.google.com/specimen/Merriweather?category=Serif" target="_blank">Google Fonts</a></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td style="font-family:Helvetica">Helvetica</td>
+                            <td>Alt Sans-Serif 1</td>
+                            <td rowspan="4">Web-safe</td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td style="font-family:Arial">Arial</td>
+                            <td>Alt Sans-Serif 2</td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td style="font-family:Garamond">Garamond</td>
+                            <td>Alt Serif 1</td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td style="font-family:'Times New Roman', Times, serif">Times New Roman</td>
+                            <td>Alt Serif 2</td>
+                            <td></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </section>
+            <hr>
+            <section id="colors">
+                <h2 id="colorsL">Colors</h2>
+                <p>The following are colors I typically use to style my website. There is a common theme of grayscale, but some blue and red elements are also used.</p>
+                <div id="grayscale">
+                    <h3>Grayscale</h3>
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Declaration</th>
+                                <th id="white"></th>
+                                <th id="gray1"></th>
+                                <th id="gray2"></th>
+                                <th id="gray3"></th>
+                                <th id="gray4"></th>
+                                <th id="gray5"></th>
+                                <th id="gray6"></th>
+                                <th id="gray7"></th>
+                                <th id="black"></td>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>RGB</td>
+                                <td><code>rgb(255, 255, 255)</code></td>
+                                <td><code>rgb(237, 237, 237)</code></td>
+                                <td><code>rgb(209, 209, 209)</code></td>
+                                <td><code>rgb(176, 176, 176)</code></td>
+                                <td><code>rgb(115, 115, 115)</code></td>
+                                <td><code>rgb(92, 92, 92)</code></td>
+                                <td><code>rgb(69, 69, 69)</code></td>
+                                <td><code>rgb(33, 33, 33)</code></td>
+                                <td><code>rgb(0, 0, 0)</code></td>
+                            </tr>
+                            <tr>
+                                <td>Hex</td>
+                                <td><code>#FFF</code></td>
+                                <td><code>#ededed</code></td>
+                                <td><code>#d1d1d1</code></td>
+                                <td><code>#b0b0b0</code></td>
+                                <td><code>#737373</code></td>
+                                <td><code>#5c5c5c</code></td>
+                                <td><code>#454545</code></td>
+                                <td><code>#212121</code></td>
+                                <td><code>#000</code></td>
+                            </tr>
+                            <tr>
+                                <td>HSL</td>
+                                <td><code>hsl(0, 0%, 100%)</code></td>
+                                <td><code>hsl(0, 0%, 93%)</code></td>
+                                <td><code>hsl(0, 0%, 82%)</code></td>
+                                <td><code>hsl(0, 0%, 69%)</code></td>
+                                <td><code>hsl(0, 0%, 45%)</code></td>
+                                <td><code>hsl(0, 0%, 36%)</code></td>
+                                <td><code>hsl(0, 0%, 27%)</code></td>
+                                <td><code>hsl(0, 0%, 13%)</code></td>
+                                <td><code>hsl(0, 0%, 0%)</code></td>
+                            </tr>
+                        </tbody>
+                        
+                    </table>
+                </div>
+                    <div class="panels">
+                        <div class="panel">
+                            <div class="apple frame"></div>
+                            <div>
+                                <h2>Candy Apple Red</h2>
+                                <p><code>rgb(190, 30, 45)</code></p>
+                                <p><code>#be1e2d</code></p>
+                                <p><code>hsl(354, 73%, 43%)</code></p>
+                            </div>
+                        </div>
+                        <div class="panel">
+                            <div class="ferris-wheel frame"></div>
+                            <div>
+                                <h2>Ferris-Wheel Red</h2>
+                                <p><code>rgb(239, 66, 54)</code></p>
+                                <p><code>#ef4136</code></p>
+                                <p><code>hsl(4, 85%, 57%)</code></p>
+                            </div>
+                        </div>
+                        <div class="panel">
+                            <div class="strawberry frame"></div>
+                            <div>
+                                <h2>Strawberry</h2>
+                                <p><code>rgb(219, 4, 83)</code></p>
+                                <p><code>#db0453</code></p>
+                                <p><code>hsl(338, 96%, 44%)</code></p>
+                            </div>
+                        </div>
+                        <div class="panel">
+                            <div class="robotics frame"></div>
+                            <div>
+                                <h2>Robotics Yellow</h2>
+                                <p><code>rgb(255, 221, 0)</code></p>
+                                <p><code>#ffdd00</code></p>
+                                <p><code>hsl(52, 100%, 50%)</code></p>
+                            </div>
+                        </div>
+                        <div id="links" class="panel">
+                            <div class="blue frame"></div>
+                            <div>
+                                <h2>Atlantic Blue</h2>
+                                <p><code>rgb(12,73,129)</code></p>
+                                <p><code>#0c4981</code></p>
+                                <p><code>hsl(209, 83%, 28%)</code></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <footer>
+            <div id="copyright">
+                <p>©Perry Han 2022</p>
+            </div>
+        </footer>
+    </body>
+</html>

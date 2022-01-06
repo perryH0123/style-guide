@@ -1,0 +1,55 @@
+#white {
+    background-color: #fff;
+}
+
+#gray1 {
+    background-color: hsl(0,0%,93%);
+}
+
+#gray2 {
+    background-color: hsl(0,0%,82%)
+}
+
+#gray3 {
+    background-color: hsl(0,0%,69%);
+}
+
+#gray4 {
+    background-color: hsl(0,0%,45%)
+}
+
+#gray5 {
+    background-color: hsl(0,0%,36%)
+}
+
+#gray6 {
+    background-color: hsl(0,0%,27%)
+}
+
+#gray7 {
+    background-color: hsl(0,0%,13%);
+}
+
+#black {
+    background-color: #000;
+}
+
+.blue {
+    background-color: #0c4981;
+}
+
+.strawberry {
+    background-color: #db0453;
+}
+
+.ferris-wheel {
+    background-color: #ef4136;
+}
+
+.apple {
+    background-color: #be1e2d;
+}
+
+.robotics {
+    background-color: #ffdd00;
+}
